@@ -90,6 +90,10 @@ body {
     grid-column: 2/3;
     grid-row: 3/4 ;
 } */
+
+.skills-logo{
+	opacity: 0;
+}
 #skills {
 	display: grid;
 	position: relative;
@@ -196,6 +200,6 @@ body {
 	background: url(img/title-bckg5.jpg) no-repeat center;
 	background-size: cover;
 	padding: 0px;
-	height: 10vh;
+	height: 20vh;
 }
 
