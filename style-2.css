@@ -1,0 +1,36 @@
+#gymnasium-txt{
+    font-family: Jo;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    padding-left: 20px;
+}
+
+#university-txt {
+    font-family: Jo;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    padding-left: 20px;
+}
+
+#rcs-txt {
+    font-family: Jo;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    padding-left: 20px;
+}
+
+#education-title{
+    align-items: flex-end;
+	margin-left:10%;
+    font-family: Jo;
+    font-weight: 700;
+    font-size: 50px;
+	font-style: normal;
+	position: absolute;
+	margin-left: 10vw ;
+	margin-top: 90vh ;
+	color: white;
+}
