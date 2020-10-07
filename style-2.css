@@ -1,6 +1,6 @@
 #gymnasium{
 	background: url(img/2gim.jpg) no-repeat center;
-	background-size: 100%;
+	background-size: cover;
 	z-index: -1;
 	grid-template-columns: 1/2;
 	grid-template-rows: 1/4;
@@ -9,11 +9,14 @@
 	background: url(img/uni.jpg) no-repeat center;
 	background-size: 30vw;
 	z-index: -1;
+	background-size: cover;
 }
 #rcs{
 	background: url(img/rcs.jpg) no-repeat center;
 	background-size: 30vw;
 	z-index: -1;
+	background-size: cover;
+
 }
 #gymnasium-txt {
 	padding-left: 20px;
@@ -21,6 +24,7 @@
 	font-size: 40px;
 	font-weight: 700;
 	font-style: normal;
+	align-self: center;
 }
 #university-txt {
 	padding-left: 20px;
@@ -28,6 +32,7 @@
 	font-size: 40px;
 	font-weight: 700;
 	font-style: normal;
+	align-self: center;
 }
 #rcs-txt {
 	padding-left: 20px;
@@ -35,6 +40,7 @@
 	font-size: 40px;
 	font-weight: 700;
 	font-style: normal;
+	align-self: center;
 }
 #education-title {
 	position: absolute;
@@ -62,7 +68,7 @@
 	align-self: center;
 	color: white;
 	font-family: JoThin;
-	font-size: 20pt;
+	font-size: 15pt;
 	font-weight: 500;
 	margin-left:5vw;
 }
