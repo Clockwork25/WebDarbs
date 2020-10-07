@@ -2,6 +2,11 @@
 	font-family: Jo;
 	src: url(font/JosefinSans-VariableFont_wght.ttf);
 }
+
+@font-face {
+	font-family: JoThin;
+	src: url(font/static/JosefinSans-LightItalic.ttf);
+}
 body {
 	margin: 0px;
 }
@@ -56,6 +61,8 @@ body {
 	max-width: 200px;
 	height: auto;
 	max-height: 200px;
+	background-color:white;
+	border-radius:10px;
 }
 #side-text {
 	display: none;
@@ -172,12 +179,12 @@ body {
 }
 #education {
 	display: grid;
+	justify-content: space-evenly;
 	position: relative;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
 	margin: 0px;
-	background: url(img/title-bckg4.png) no-repeat center;
-	background-size: cover;
+	/* background: url(img/title-bckg4.png) no-repeat center; */
 	padding: 0px;
 	height: 100vh;
 }
